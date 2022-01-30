@@ -28,7 +28,7 @@
 
   <div class="field">
     <%= form.label :priority %>
-    <%= form.number_field :priority, id: :goal_priority %>
+    <%= form.select :priority, options_for_select(Goal.priorities.map {|key, value| [key.titleize, Goal.priorities.key(value)]}, goal.priority) %>
   </div>
 
   <div class="field">
