@@ -24,3 +24,21 @@
   line-height: 25px;
 }
 
+.navbar {
+  justify-content: space-between;
+  padding: 1.25rem 0;
+  position: relative;
+  box-shadow: 0 4px 2px -2px rgb(229, 226, 226);
+}
+
+.navbar-logo {
+  color: #080808;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+
+.icon-navbar {
+  height: 4rem;
+}
