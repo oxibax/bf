@@ -13,3 +13,14 @@
 *= require bootstrap_and_overrides
 *= require_self
  */
+
+ @import "about.scss";
+
+ body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Montserrat';
+  font-size: 13px;
+  line-height: 25px;
+}
+

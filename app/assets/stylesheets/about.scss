@@ -1,3 +1,37 @@
 // Place all the styles related to the About controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin: 0 auto;
+}
+
+.about-text {
+  font-size: 2rem;
+  margin-top: 12rem;
+  padding: 4rem;
+}
+
+h3 {
+  margin-bottom: 4rem;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  color: #161c2d;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 4rem;
+  font-size: 2.25rem;
+}
+
+.btn-primary {
+  background-color: #335eea;
+  border-color: #335eea;
+  box-shadow: 0 0;
+  color: #fff;
+}

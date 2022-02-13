@@ -1,5 +1,30 @@
-<% if @goals.any? %>
-<%= link_to "Back to Goals", goals_path %>
-<% else %>
-<%= link_to "Create New Goal", goals_path %>
-<% end %>
+	<div class="row"> 
+		<div class="col-md-9">
+		<!-- Heading -->
+		  <div class="about-text">
+				<h1>Self-development goal tracker</h1>
+				<h3>BeFocused is a convenient centralized personal space
+				for any students, learners or other interested in self-
+				education and self-development people.</h3>
+				<p>Moreover, setting goals in the right way can help you achieve them! Each
+					goal should be SMART, and here's what it means:</p>
+				<p>Specific: Well defined, clear, and unambiguous</p>
+				<p>Measurable: With specific criteria that measure your progress towards
+					the accomplishment of the goal</p>
+				<p>Achievable: Attainable and not impossible to achieve</p>
+				<p>Realistic: Within reach, realistic, and relevant to your life purpose</p>
+				<p>Timely: With a clearly defined timeline, including a starting date and a
+					target date. The purpose is to create urgency.</p>
+				<div class="btn btn-primary">
+							<% if @goals.any? %>
+								<%= link_to "Back to Goals", goals_path, class: "btn-primary"  %>
+							<% else %>
+								<%= link_to "Create New Goal", goals_path, class: "btn-primary" %>
+							<% end %>
+				</div> 
+		  </div>	
+		</div> 
+		<div class="col-md-3">
+			<%= image_tag("about_page_man_image.png") %>
+		</div>
+	</div>
